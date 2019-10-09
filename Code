@@ -30,7 +30,7 @@ void soil_menu()
 }
 void crop_menu()
 {
- cout<<"FA--->Please select the crop you are growing from the menu below\n1.RICE";
+ cout<<"FA--->Please select the crop you are growing from the menu below\n1.RICE \n2.WHEAT";
  cin>>soil;
  clrscr();
 }
