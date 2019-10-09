@@ -18,13 +18,13 @@ int soil, crop;
 void welcome_menu()
 {
  cout<<"\tWELCOME\n\tI am the Farmer's Assitant\n";
- cout<<"please enter your name";
+ cout<<"Please enter your name";
  gets(name);
  clrscr();
 }
 void soil_menu()
 {
- cout<<"FA--->lease select the soil type from the menu below\n1.ALLUVIAL SOIL\n2.BLACK SOIL\n3.RED SOIL\n4.LATERITE SOIL";
+ cout<<"FA--->Please select the soil type from the menu below\n1.ALLUVIAL SOIL\n2.BLACK SOIL\n3.RED SOIL\n4.LATERITE SOIL";
  cin>>crop;
  clrscr();
 }
